@@ -10,6 +10,6 @@ Resources.Load<Sprite>("Coin");
 
 you would use
 
-IconLibrary.GetIcon("Coin");
+IconLibrary.instance.GetIcon("Coin");
 
 also while this script is primarily for sprites you could easily change the Sprite Types in the file to any other Object Type and it should work so long as Resources.Load has compatibility.
