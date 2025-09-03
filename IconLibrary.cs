@@ -4,7 +4,7 @@ using UnityEngine;
 public class IconLibrary : MonoBehaviour
 {
     public static IconLibrary instance;
-    private Dictionary<string, Sprite> sprites;
+    private Dictionary<string, Sprite> sprites = new Dictionary<string, Sprite>();
     [Tooltip("Put the names of all of the spritesheets you want to load from the resources folder here, including any pathing that needs to occur"), SerializeField]
     private string[] spriteAtlasNames;
 
